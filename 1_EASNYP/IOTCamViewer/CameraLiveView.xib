@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraLiveViewController">
+            <connections>
+                <outlet property="AudioTitle" destination="mx5-iK-RJD" id="K5I-Iw-tPL"/>
+                <outlet property="EModeTitle" destination="QMC-eb-Zo4" id="eNj-yf-EqI"/>
+                <outlet property="QVGATitle" destination="jiU-Vq-M8L" id="AEQ-Lp-5k2"/>
+                <outlet property="btnPlaySwitcher_Landscpae" destination="ClF-tt-3XC" id="hgq-sd-xmu"/>
+                <outlet property="emodeView" destination="w93-eh-Vfi" id="bkz-xu-v3I"/>
+                <outlet property="frameInfoLabel" destination="66" id="67"/>
+                <outlet property="horizMenu" destination="ZCU-og-BNj" id="MQL-2Z-CvD"/>
+                <outlet property="landBackBtn" destination="O6d-UQ-nMa" id="TZE-QP-whU"/>
+                <outlet property="landBrightHigh" destination="Q4K-Rt-4Kq" id="Ncr-sg-94j"/>
+                <outlet property="landBrightHighest" destination="Ya7-4K-PV6" id="Zfm-8q-0h2"/>
+                <outlet property="landBrightLow" destination="6p4-aK-elB" id="t5R-O7-k33"/>
+                <outlet property="landBrightLowest" destination="FMJ-B2-gSj" id="Nsk-r2-emQ"/>
+                <outlet property="landBrightMiddle" destination="wNG-zX-HAW" id="0BF-ux-Fsc"/>
+                <outlet property="landBrightTitle" destination="nnn-lw-MTJ" id="Qpc-9h-K1s"/>
+                <outlet property="landBrightView" destination="S3O-WB-Mte" id="dNv-42-1d4"/>
+                <outlet property="landConstrastTitle" destination="4ae-rJ-oBU" id="bf0-Wz-cdD"/>
+                <outlet property="landConstrastView" destination="33K-Ji-C80" id="JWx-sl-4fL"/>
+                <outlet property="landContrastHigh" destination="NI0-cl-dEC" id="hq7-8R-u2X"/>
+                <outlet property="landContrastHighest" destination="Y9M-JU-ucL" id="ciG-EU-frd"/>
+                <outlet property="landContrastLow" destination="YwI-eb-5VX" id="Boz-k0-N5C"/>
+                <outlet property="landContrastLowest" destination="OGF-L5-0sA" id="Qdq-gQ-2bJ"/>
+                <outlet property="landContrastMiddle" destination="ljh-Ig-b76" id="mIb-1K-XTU"/>
+                <outlet property="landscapeView" destination="96" id="118"/>
+                <outlet property="loadingViewLandscape" destination="162" id="166"/>
+                <outlet property="loadingViewPortrait" destination="161" id="167"/>
+                <outlet property="longAudioTitle" destination="Jdx-VY-R9Q" id="NUi-ol-9bl"/>
+                <outlet property="longBtn50HZ" destination="KPG-fh-Pn0" id="HDG-pr-yp0"/>
+                <outlet property="longBtn60HZ" destination="T1p-Lf-WiM" id="EG0-tp-3CR"/>
+                <outlet property="longEModeTitle" destination="5cf-0R-E2h" id="LtI-Dk-d6f"/>
+                <outlet property="longEModeView" destination="CRY-ET-NnA" id="Fv7-JF-dDw"/>
+                <outlet property="longHorizMenu" destination="eii-SK-gbX" id="aak-ch-sQ9"/>
+                <outlet property="longQVGATitle" destination="cfv-fQ-0i4" id="QXO-oH-afU"/>
+                <outlet property="longQVGAView" destination="CZL-vK-5rh" id="ktg-pZ-I6E"/>
+                <outlet property="longSetHigh" destination="KPk-BX-xvq" id="ILY-NZ-I2H"/>
+                <outlet property="longSetHighest" destination="FVd-K3-39w" id="yuB-fY-bws"/>
+                <outlet property="longSetLow" destination="dio-eE-igg" id="PEo-Ty-t1x"/>
+                <outlet property="longSetLowest" destination="Bgr-aI-6Ig" id="B20-3F-8Pj"/>
+                <outlet property="longSetMedium" destination="8D7-Sq-k1S" id="wpf-Y6-qU1"/>
+                <outlet property="longSetNight" destination="h5F-kW-gBW" id="O5b-Pv-oIj"/>
+                <outlet property="longSetOutDoor" destination="9t0-9B-4vs" id="Edf-Iu-k4P"/>
+                <outlet property="longTalkButton" destination="eRd-I6-bHc" id="Nfa-PO-g3F"/>
+                <outlet property="longTalkButtonBtn" destination="xct-Zv-OqR" id="jAB-xf-0kY"/>
+                <outlet property="monitorLandscape" destination="153" id="154"/>
+                <outlet property="monitorPortrait" destination="149" id="155"/>
+                <outlet property="myPTZDownBtn" destination="upP-rw-fcn" id="Ft8-Z4-71M"/>
+                <outlet property="myPtzLeftBtn" destination="qhw-F8-J6F" id="XVg-H6-m45"/>
+                <outlet property="myPtzRightBtn" destination="gcz-kZ-GDi" id="d1L-M9-91s"/>
+                <outlet property="myPtzUpBtn" destination="sBN-7n-Ck8" id="CW7-vL-JM9"/>
+                <outlet property="myPtzView" destination="Bbc-ly-dw4" id="Esm-2I-gNC"/>
+                <outlet property="portaitContrastHigest" destination="vD5-iy-sWg" id="EfU-1s-IUC"/>
+                <outlet property="portaitContrastHigt" destination="vJa-cK-b16" id="di4-2Y-hsd"/>
+                <outlet property="portaitContrastLow" destination="tPw-UB-2L0" id="sLs-bF-eg1"/>
+                <outlet property="portaitContrastLowest" destination="K4o-2D-l1c" id="wEo-pI-dSX"/>
+                <outlet property="portaitContrastMiddle" destination="Mey-kC-MnP" id="1Kr-uT-5vl"/>
+                <outlet property="portraitBrightHigh" destination="Qdq-l3-FCk" id="U8S-Bi-3n0"/>
+                <outlet property="portraitBrightHighLow" destination="pBc-xh-JSO" id="pz1-m5-DD6"/>
+                <outlet property="portraitBrightLow" destination="RKn-F4-CYJ" id="lyk-si-RQd"/>
+                <outlet property="portraitBrightLowest" destination="Woa-cL-riG" id="13b-gv-wwq"/>
+                <outlet property="portraitBrightMiddle" destination="nmM-Jr-kPK" id="lvG-WK-AK1"/>
+                <outlet property="portraitBrightScrollView" destination="HaN-vq-RAf" id="Pps-CV-sBm"/>
+                <outlet property="portraitBrightTitle" destination="R6K-D3-Hw0" id="cuh-aF-D7o"/>
+                <outlet property="portraitBrightView" destination="XiG-wU-W4V" id="xSz-ym-wc2"/>
+                <outlet property="portraitConstrastScrollView" destination="sm9-B4-JmE" id="k2H-yL-GFz"/>
+                <outlet property="portraitContrastTitle" destination="qxj-5e-bcr" id="wKo-aJ-g1e"/>
+                <outlet property="portraitContrastView" destination="oAo-xB-3AH" id="ckK-tW-OKT"/>
+                <outlet property="portraitView" destination="1" id="119"/>
+                <outlet property="preBtn1" destination="GVr-mC-2Hg" id="w1R-ji-I7v"/>
+                <outlet property="preBtn2" destination="VXt-qB-GNh" id="2gx-QK-ate"/>
+                <outlet property="preBtn3" destination="J0h-23-JVd" id="wRd-yk-yVW"/>
+                <outlet property="preBtn4" destination="Reu-27-MPm" id="gEg-Y8-gDw"/>
+                <outlet property="preNumView" destination="3Oc-zk-ROc" id="Y6T-QZ-N61"/>
+                <outlet property="prePositionTipsLbl" destination="FUd-X7-8UB" id="5AG-lS-lch"/>
+                <outlet property="prePositionTitleLbl" destination="6Pz-WF-kpc" id="ElT-KB-44Q"/>
+                <outlet property="prePositionView" destination="wbg-Jy-8i1" id="nPB-QO-tRU"/>
+                <outlet property="qualityLabel" destination="168" id="169"/>
+                <outlet property="qvgaView" destination="lYp-XW-N5L" id="nM1-kC-NjI"/>
+                <outlet property="scrollEModeView" destination="xTV-bb-XdJ" id="QVr-7G-RUs"/>
+                <outlet property="scrollQVGAView" destination="DLi-Sn-RSD" id="A8L-hW-nCT"/>
+                <outlet property="scrollViewLandscape" destination="151" id="156"/>
+                <outlet property="scrollViewPortrait" destination="150" id="157"/>
+                <outlet property="set50Hz" destination="hkl-K0-dti" id="Qf0-z2-c6D"/>
+                <outlet property="set60Hz" destination="QQo-ZS-dkg" id="ooH-qb-6q3"/>
+                <outlet property="setHigh" destination="6Z0-gx-W4y" id="hNj-Po-k1f"/>
+                <outlet property="setHighest" destination="qGw-TG-a1M" id="gb0-rQ-gzB"/>
+                <outlet property="setLow" destination="nS7-di-CbZ" id="Qi6-lL-AnI"/>
+                <outlet property="setLowest" destination="snh-a6-HRK" id="b4v-JQ-3N3"/>
+                <outlet property="setMedium" destination="nAa-58-51O" id="jkh-1i-hrJ"/>
+                <outlet property="setNight" destination="1dg-7f-ipz" id="I7i-Tu-dG8"/>
+                <outlet property="setOutDoor" destination="jlB-Ja-Gk3" id="gOJ-lj-uHc"/>
+                <outlet property="statusBar" destination="2T0-rH-Moo" id="V1P-d5-Lsb"/>
+                <outlet property="statusLabel" destination="62" id="63"/>
+                <outlet property="talkButton" destination="SQa-vd-w9P" id="KUa-qG-h1p"/>
+                <outlet property="talkButtonBtn" destination="Zve-yX-R2n" id="Cpu-hQ-MZ2"/>
+                <outlet property="test" destination="F7R-RS-QT8" id="Umx-Fe-5f6"/>
+                <outlet property="videoInfoLabel" destination="64" id="65"/>
+                <outlet property="view" destination="1" id="115"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" userLabel="Portrait">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="Bbc-ly-dw4">
+                    <rect key="frame" x="0.0" y="474" width="320" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sBN-7n-Ck8">
+                            <rect key="frame" x="32" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="myup.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="myup1.png"/>
+                            <connections>
+                                <action selector="myPtzUpAction:" destination="-1" eventType="touchUpInside" id="0Ix-IJ-NVW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qhw-F8-J6F">
+                            <rect key="frame" x="178" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="myleft.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="myleft1.png"/>
+                            <connections>
+                                <action selector="myPtzLeftAction:" destination="-1" eventType="touchUpInside" id="hqx-d8-SxW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gcz-kZ-GDi">
+                            <rect key="frame" x="250" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="myright.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="myright1.png"/>
+                            <connections>
+                                <action selector="myPtzRightAction:" destination="-1" eventType="touchUpInside" id="zyn-hk-jdJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="upP-rw-fcn">
+                            <rect key="frame" x="106" y="0.0" width="40" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="mydown.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="mydown1.png"/>
+                            <connections>
+                                <action selector="myPtzDownAction:" destination="-1" eventType="touchUpInside" id="bNM-pc-aKO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="150">
+                    <rect key="frame" x="0.0" y="44" width="320" height="240"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="149" customClass="Monitor">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="F7R-RS-QT8" customClass="APLEAGLView">
+                            <rect key="frame" x="40" y="56" width="240" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="159"/>
+                    </connections>
+                </scrollView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" style="whiteLarge" id="161">
+                    <rect key="frame" x="141" y="116" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+                <view contentMode="scaleToFill" id="2T0-rH-Moo">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liveview_info.png" id="fxd-yk-SVq">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="62">
+                    <rect key="frame" x="8" y="2" width="152" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="64">
+                    <rect key="frame" x="164" y="2" width="152" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" minimumFontSize="10" id="66">
+                    <rect key="frame" x="8" y="22" width="152" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" id="168">
+                    <rect key="frame" x="164" y="22" width="152" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <scrollView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" id="DLi-Sn-RSD" userLabel="Scroll View QVGA">
+                    <rect key="frame" x="0.0" y="326" width="320" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="lYp-XW-N5L" userLabel="View QVGA">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jiU-Vq-M8L">
+                                    <rect key="frame" x="100" y="0.0" width="120" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="影像品質" backgroundImage="toolinfo_bk.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qGw-TG-a1M">
+                                    <rect key="frame" x="57" y="25" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="最高" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="iVI-7b-rvk"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6Z0-gx-W4y">
+                                    <rect key="frame" x="57" y="57" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="高" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="PTV-Tg-HEj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nAa-58-51O">
+                                    <rect key="frame" x="57" y="89" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="適中" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="ajr-D2-YVG"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nS7-di-CbZ">
+                                    <rect key="frame" x="57" y="121" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="低" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="vmf-Ua-Pbl"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="snh-a6-HRK">
+                                    <rect key="frame" x="57" y="153" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="最低" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="0LU-ec-exj"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="gtG-VC-d6U"/>
+                    </connections>
+                </scrollView>
+                <view hidden="YES" contentMode="scaleToFill" id="SQa-vd-w9P" userLabel="View AUDIO">
+                    <rect key="frame" x="20" y="320" width="280" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Zve-yX-R2n">
+                            <rect key="frame" x="150" y="20" width="94" height="94"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="call_on.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="call_on_clicked.png"/>
+                            <connections>
+                                <action selector="talkOff:" destination="-1" eventType="touchUpOutside" id="4rn-7e-WgI"/>
+                                <action selector="talkOff:" destination="-1" eventType="touchUpInside" id="VdP-H6-QHX"/>
+                                <action selector="talkOn:" destination="-1" eventType="touchDown" id="Fiz-Ng-FOr"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mx5-iK-RJD">
+                            <rect key="frame" x="0.0" y="85" width="158" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="按住進行通話" backgroundImage="leo_micinfo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                </view>
+                <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="xTV-bb-XdJ" userLabel="Scroll View EMode">
+                    <rect key="frame" x="0.0" y="340" width="320" height="196"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="w93-eh-Vfi" userLabel="View EMODE">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QMC-eb-Zo4">
+                                    <rect key="frame" x="85" y="0.0" width="150" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="環境模式" backgroundImage="toolinfo_bk.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hkl-K0-dti">
+                                    <rect key="frame" x="57" y="25" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="50Hz" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="1ep-dR-IGg"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QQo-ZS-dkg">
+                                    <rect key="frame" x="57" y="57" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="60Hz" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="H7S-SI-sVm"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jlB-Ja-Gk3">
+                                    <rect key="frame" x="57" y="89" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="室外模式" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="K2I-X3-wuR"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1dg-7f-ipz">
+                                    <rect key="frame" x="57" y="121" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="夜間模式" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="cOO-MR-kFw"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="fen-Dp-L9u"/>
+                    </connections>
+                </scrollView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZCU-og-BNj" customClass="MKHorizMenu">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="YGH-DB-NFy"/>
+                        <outlet property="itemSelectedDelegate" destination="-1" id="Wcs-GJ-UVH"/>
+                    </connections>
+                </scrollView>
+                <scrollView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" id="sm9-B4-JmE" userLabel="Scroll View Contrast">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="oAo-xB-3AH" userLabel="View Contrast">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qxj-5e-bcr">
+                                    <rect key="frame" x="100" y="0.0" width="120" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="对比度" backgroundImage="toolinfo_bk.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vD5-iy-sWg">
+                                    <rect key="frame" x="57" y="25" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="最高" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="gwb-49-mb8"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vJa-cK-b16">
+                                    <rect key="frame" x="57" y="57" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="高" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="TAO-4N-JMh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Mey-kC-MnP">
+                                    <rect key="frame" x="57" y="89" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="適中" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="ejo-NW-0Zj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tPw-UB-2L0">
+                                    <rect key="frame" x="57" y="121" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="低" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="zpJ-SD-eXJ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K4o-2D-l1c">
+                                    <rect key="frame" x="57" y="153" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="最低" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="k6p-FL-o2j"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="cDD-gM-Irn"/>
+                    </connections>
+                </scrollView>
+                <scrollView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" id="HaN-vq-RAf" userLabel="Scroll View Bright">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="XiG-wU-W4V" userLabel="View Bright">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R6K-D3-Hw0">
+                                    <rect key="frame" x="100" y="0.0" width="120" height="23"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="亮度" backgroundImage="toolinfo_bk.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Qdq-l3-FCk">
+                                    <rect key="frame" x="57" y="25" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="最高" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="C9H-Uc-LHK"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pBc-xh-JSO">
+                                    <rect key="frame" x="57" y="57" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="高" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="0pA-2e-rMU"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nmM-Jr-kPK">
+                                    <rect key="frame" x="57" y="89" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="適中" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="K5N-bJ-WKQ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RKn-F4-CYJ">
+                                    <rect key="frame" x="57" y="121" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="低" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="Jch-Uk-TP3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Woa-cL-riG">
+                                    <rect key="frame" x="57" y="153" width="206" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="最低" backgroundImage="qualitylist.png">
+                                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="b9n-G9-5sT"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="QzW-Ol-rzB"/>
+                    </connections>
+                </scrollView>
+                <view contentMode="scaleToFill" id="wbg-Jy-8i1">
+                    <rect key="frame" x="0.0" y="227" width="320" height="114"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预置位" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Pz-WF-kpc">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.10980392156862745" green="0.5725490196078431" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="3Oc-zk-ROc">
+                            <rect key="frame" x="0.0" y="31" width="320" height="83"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击来移动至位置，长按来存储位置" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FUd-X7-8UB">
+                                    <rect key="frame" x="0.0" y="46" width="320" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GVr-mC-2Hg">
+                                    <rect key="frame" x="26" y="14" width="24" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="position_01.png"/>
+                                    <state key="selected" backgroundImage="position_01_click.png">
+                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="position_01_click.png"/>
+                                    <connections>
+                                        <action selector="preAction:" destination="-1" eventType="touchUpInside" id="TQF-qX-ak0"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VXt-qB-GNh">
+                                    <rect key="frame" x="109" y="14" width="24" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="position_02.png"/>
+                                    <state key="selected" backgroundImage="position_02_click.png"/>
+                                    <state key="highlighted" backgroundImage="position_02_click.png"/>
+                                    <connections>
+                                        <action selector="preAction:" destination="-1" eventType="touchUpInside" id="cQu-g1-KUh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Reu-27-MPm">
+                                    <rect key="frame" x="263" y="14" width="24" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="position_04.png"/>
+                                    <state key="selected" backgroundImage="position_04_click.png"/>
+                                    <state key="highlighted" backgroundImage="position_04_click.png"/>
+                                    <connections>
+                                        <action selector="preAction:" destination="-1" eventType="touchUpInside" id="o9Z-Wa-AsL"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J0h-23-JVd">
+                                    <rect key="frame" x="190" y="14" width="24" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" backgroundImage="position_03.png"/>
+                                    <state key="selected" backgroundImage="position_03_click.png"/>
+                                    <state key="highlighted" backgroundImage="position_03_click.png"/>
+                                    <connections>
+                                        <action selector="preAction:" destination="-1" eventType="touchUpInside" id="2Kk-el-vfC"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.10980392156862745" green="0.5725490196078431" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="121" y="194"/>
+        </view>
+        <view contentMode="scaleToFill" id="96" userLabel="Landscape">
+            <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="O6d-UQ-nMa">
+                    <rect key="frame" x="10" y="10" width="44" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="cam_back.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="cam_back_clicked.png"/>
+                    <connections>
+                        <action selector="landBackAction:" destination="-1" eventType="touchUpInside" id="XhP-DA-fyZ"/>
+                    </connections>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="151">
+                    <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="153" customClass="Monitor">
+                            <rect key="frame" x="0.0" y="0.0" width="486" height="320"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="158"/>
+                    </connections>
+                </scrollView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" style="whiteLarge" id="162">
+                    <rect key="frame" x="221" y="142" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ClF-tt-3XC">
+                    <rect key="frame" x="1" y="288" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="Pause.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="Play_clicked.png"/>
+                    <connections>
+                        <action selector="onPlaySwitcher:" destination="-1" eventType="touchUpInside" id="QwM-Y1-wpH"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" id="eRd-I6-bHc">
+                    <rect key="frame" x="230" y="160" width="280" height="120"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xct-Zv-OqR">
+                            <rect key="frame" x="150" y="20" width="94" height="94"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="call_on.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="call_on_clicked.png"/>
+                            <connections>
+                                <action selector="talkOff:" destination="-1" eventType="touchUpOutside" id="0E2-2m-T6k"/>
+                                <action selector="talkOff:" destination="-1" eventType="touchUpInside" id="kDA-7k-Pbe"/>
+                                <action selector="talkOn:" destination="-1" eventType="touchDown" id="xB4-Jv-opP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jdx-VY-R9Q">
+                            <rect key="frame" x="0.0" y="85" width="158" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="按住進行通話" backgroundImage="leo_micinfo.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="CZL-vK-5rh">
+                    <rect key="frame" x="124" y="74" width="320" height="172"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cfv-fQ-0i4">
+                            <rect key="frame" x="100" y="0.0" width="120" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="影像品質" backgroundImage="toolinfo_bk.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FVd-K3-39w">
+                            <rect key="frame" x="57" y="25" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="最高" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="fzV-7G-axV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KPk-BX-xvq">
+                            <rect key="frame" x="57" y="57" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="高" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="AXn-Ti-gTw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8D7-Sq-k1S">
+                            <rect key="frame" x="57" y="89" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="適中" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="UVf-DQ-DGk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dio-eE-igg">
+                            <rect key="frame" x="57" y="121" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="低" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="QC7-5V-N9T"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bgr-aI-6Ig">
+                            <rect key="frame" x="57" y="153" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="最低" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetQVGA:" destination="-1" eventType="touchUpInside" id="mfG-Ka-orR"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="CRY-ET-NnA">
+                    <rect key="frame" x="124" y="74" width="320" height="172"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5cf-0R-E2h">
+                            <rect key="frame" x="57" y="0.0" width="204" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="環境模式" backgroundImage="toolinfo_bk.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KPG-fh-Pn0">
+                            <rect key="frame" x="57" y="25" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="50Hz" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="747-zc-1BL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="T1p-Lf-WiM">
+                            <rect key="frame" x="57" y="57" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="60Hz" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="1Q6-X8-e7h"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9t0-9B-4vs">
+                            <rect key="frame" x="57" y="89" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="室外模式" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="1U5-v5-DIA"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="h5F-kW-gBW">
+                            <rect key="frame" x="57" y="121" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="夜間模式" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnSetEMode:" destination="-1" eventType="touchUpInside" id="jlx-vO-1Vp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="eii-SK-gbX" customClass="MKHorizMenu">
+                    <rect key="frame" x="0.0" y="276" width="568" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="8Od-C2-nfK"/>
+                        <outlet property="itemSelectedDelegate" destination="-1" id="x8A-9a-don"/>
+                    </connections>
+                </scrollView>
+                <view hidden="YES" contentMode="scaleToFill" id="S3O-WB-Mte" userLabel="BrightView">
+                    <rect key="frame" x="124" y="-124" width="320" height="172"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nnn-lw-MTJ">
+                            <rect key="frame" x="100" y="0.0" width="120" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="亮度" backgroundImage="toolinfo_bk.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ya7-4K-PV6">
+                            <rect key="frame" x="57" y="25" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="最高" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="xFl-Xl-1fE"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Q4K-Rt-4Kq">
+                            <rect key="frame" x="57" y="57" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="高" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="wyN-WM-mca"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wNG-zX-HAW">
+                            <rect key="frame" x="57" y="89" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="適中" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="0pg-7L-f1v"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6p4-aK-elB">
+                            <rect key="frame" x="57" y="121" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="低" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="wUN-DM-J3N"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FMJ-B2-gSj">
+                            <rect key="frame" x="57" y="153" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="最低" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onBrightClicked:" destination="-1" eventType="touchUpInside" id="DoT-8B-gbg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="33K-Ji-C80" userLabel="ContrastView">
+                    <rect key="frame" x="124" y="-124" width="320" height="172"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4ae-rJ-oBU">
+                            <rect key="frame" x="100" y="0.0" width="120" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="对比度" backgroundImage="toolinfo_bk.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y9M-JU-ucL">
+                            <rect key="frame" x="57" y="25" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="最高" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="Mk0-L5-SDN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NI0-cl-dEC">
+                            <rect key="frame" x="57" y="57" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="高" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="xze-WA-52L"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ljh-Ig-b76">
+                            <rect key="frame" x="57" y="89" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="適中" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="SNR-y9-mP1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YwI-eb-5VX">
+                            <rect key="frame" x="57" y="121" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="低" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="FWT-Z3-pYl"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OGF-L5-0sA">
+                            <rect key="frame" x="57" y="153" width="206" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="最低" backgroundImage="qualitylist.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="qualitylist_clicked.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onContrastClicked:" destination="-1" eventType="touchUpInside" id="rl1-Ts-PoP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Pause.png" width="30" height="30"/>
+        <image name="Play_clicked.png" width="30" height="30"/>
+        <image name="call_on.png" width="94" height="94"/>
+        <image name="call_on_clicked.png" width="94" height="94"/>
+        <image name="cam_back.png" width="48" height="48"/>
+        <image name="cam_back_clicked.png" width="48" height="48"/>
+        <image name="leo_micinfo.png" width="128" height="21"/>
+        <image name="liveview_info.png" width="320" height="57"/>
+        <image name="mydown.png" width="40" height="40"/>
+        <image name="mydown1.png" width="40" height="40"/>
+        <image name="myleft.png" width="40" height="40"/>
+        <image name="myleft1.png" width="40" height="40"/>
+        <image name="myright.png" width="40" height="40"/>
+        <image name="myright1.png" width="40" height="40"/>
+        <image name="myup.png" width="40" height="40"/>
+        <image name="myup1.png" width="40" height="40"/>
+        <image name="position_01.png" width="48" height="48"/>
+        <image name="position_01_click.png" width="48" height="48"/>
+        <image name="position_02.png" width="48" height="48"/>
+        <image name="position_02_click.png" width="48" height="48"/>
+        <image name="position_03.png" width="48" height="48"/>
+        <image name="position_03_click.png" width="48" height="48"/>
+        <image name="position_04.png" width="48" height="48"/>
+        <image name="position_04_click.png" width="48" height="48"/>
+        <image name="qualitylist.png" width="206" height="30"/>
+        <image name="qualitylist_clicked.png" width="206" height="30"/>
+        <image name="toolinfo_bk.png" width="121" height="23"/>
+    </resources>
+</document>

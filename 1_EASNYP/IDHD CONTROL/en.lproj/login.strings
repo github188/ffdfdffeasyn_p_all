@@ -1,0 +1,41 @@
+/* 
+  login.strings
+  P2PCamCEO
+
+  Created by fourones on 15/11/21.
+  Copyright © 2015年 TUTK. All rights reserved.
+*/
+"UserNameTips"="UserName";
+"PasswordTips"="Password";
+"Remember"="Remember";
+"Login"="Login";
+"Forget password"="Forget password?";
+"Sign up"="Sign up";
+
+"请输入用户名和密码"="Please enter your username and password";
+"提示"="Attention";
+
+"确定"="OK";
+
+"请输入有效的Email"="Please enter a valid email address";
+
+"EmailTips"="E-mail";
+"Submit"="Submit";
+
+"firstPasswordTips"="6-16 letter and digits";
+"secondPasswordTips"="Confirm password";
+
+"请输入至少6位长度的帐号"="Please enter your Account";
+"请输入长度为6-16位的密码"="Please enter a password with 6-16 digits or letters";
+"两次密码输入不一致"="confirm password failed";
+
+"My Account"="My Account";
+"Account Management"="Account Management";
+"Switch Account"="Switch Account";
+"Modify Password"="Modify Password";
+"Alpha/number/symbol(any cobination of not less than six)"="Alpha/number/symbol(any cobination of not less than six)";
+"Old password"="Old password";
+"New password"="New password";
+"Confirm password"="Confirm password";
+"Submit"="Submit";
+"Reset"="Reset";
