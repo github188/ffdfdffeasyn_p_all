@@ -123,6 +123,9 @@ typedef struct SUB_STREAM SubStream_t;
 - (void)startSoundToDevice:(NSInteger)channel;
 - (void)startSoundToDevice:(NSInteger)channel observer:(id<SoundToDeviceObserver>)aSoundToDeviceObserver;
 - (void)stopSoundToDevice:(NSInteger)channel;
+/**
+ *  當AV Channel被成功初始化後,可以透過此方法傳送AV IO Command至Camera device端
+ */
 - (void)sendIOCtrlToChannel:(NSInteger)channel Type:(NSInteger)type Data:(char *)buff DataSize:(NSInteger)size;
 - (unsigned int)getChannel:(NSInteger)channel Snapshot:(char *)imgData dataSize:(unsigned int)size WithImageWidth:(unsigned int *)width ImageHeight:(unsigned int *)height;
 - (unsigned int)getChannel:(NSInteger)channel Snapshot:(char *)imgData DataSize:(unsigned int)size ImageType:(unsigned int*)codec_id WithImageWidth:(unsigned int *)width ImageHeight:(unsigned int *)height;

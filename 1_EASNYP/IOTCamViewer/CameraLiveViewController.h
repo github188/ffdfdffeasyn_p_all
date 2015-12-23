@@ -282,7 +282,7 @@ extern NSString *deviceTokenString;
 
 - (IBAction)onBrightClicked:(id)sender;
 
-
+//预设位置
 @property (retain, nonatomic) IBOutlet UIView *prePositionView;
 @property (retain, nonatomic) IBOutlet UILabel *prePositionTitleLbl;
 @property (retain, nonatomic) IBOutlet UILabel *prePositionTipsLbl;

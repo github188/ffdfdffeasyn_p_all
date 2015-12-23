@@ -913,7 +913,9 @@ extern unsigned int _getTickCount() {
 -(void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
     self.prePositionView.frame=CGRectMake(0, self.view.frame.size.height-self.prePositionView.frame.size.height-self.horizMenu.frame.size.height, self.prePositionView.frame.size.width, self.prePositionView.frame.size.height);
-    
+#if defined (TestTarget)
+    NSLog(@"测试多target 宏定义ok！！");
+#endif
     CGFloat marginW=50.0f;
     CGFloat leftW=(self.view.frame.size.width-[preBtnArr count]*24-([preBtnArr count]-1)*marginW)/2;
     NSInteger i=0;
@@ -3291,6 +3293,8 @@ extern unsigned int _getTickCount() {
     
     free(s);
 }
+
+#pragma mark - 按下预设按钮 控制ptc移动到对应预设位置
 - (IBAction)preAction:(UIButton *)sender {
     NSInteger index=sender.tag;
     SMsgAVIoctrlGetPresetReq *s = (SMsgAVIoctrlGetPresetReq *)malloc(sizeof(SMsgAVIoctrlGetPresetReq));
@@ -3339,6 +3343,7 @@ extern unsigned int _getTickCount() {
     }
     [self setPreAction:3];
 }
+#pragma mark - 长按 保存位置
 -(void)setPreAction:(NSInteger)index{
     SMsgAVIoctrlSetPresetReq *s = (SMsgAVIoctrlSetPresetReq *)malloc(sizeof(SMsgAVIoctrlSetPresetReq));
     memset(s, 0, sizeof(SMsgAVIoctrlSetPresetReq));

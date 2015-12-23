@@ -1,0 +1,44 @@
+what is ？
+1. /* used for display status */
+@property (readonly) NSInteger sessionState;
+
+2.//相机状态和对应的channel已经时改变调用
+- (void)camera:(MyCamera *)camera_ _didChangeChannelStatus:(NSInteger)channel ChannelStatus:(NSInteger)status
+
+3.Monitor.h fuction is ? 提供Liveview時的IP Camera影像輸出
+
+4.- (void)glFrameSize:(NSArray*)param use for：
+5.@"CameraStopShowCompleted" 通知什么时候发出的post 是对应分装好的底层？
+6.- (unsigned int)getServiceTypeOfChannel:(NSInteger)channel;
+
+
+why?
+1.if( tempCamera.sessionState == CONNECTION_STATE_CONNECTED && [tempCamera getConnectionStateOfChannel:0] == CONNECTION_STATE_CONNECTED )
+
+- (int)getConnectionStateOfChannel:(NSInteger)channel;
+channel固定为0 ？why
+
+2. ［OpenGL］ APLEAGLView为什么用
+
+3.- (void)sendIOCtrlToChannel:(NSInteger)channel Type:(NSInteger)type Data:(char *)buff DataSize:(NSInteger)size;
+连接相机的过程中： 使用此方法的步骤
+    3.1 #pragma mark - 不经过Monitor API发送控制摄像头 也是使用这个方法
+4.VideoGenerator.h for Recording
+5.定位原理及实现方法：
+
+note:
+1.相机再次链接原理
+ //先stop和断开连接再连接
+2.
+* 将底层得到的画面渲染到屏幕 updateToScreen2將畫面呈現
+*/
+- (void)updateToScreen2:(NSArray*)arrs {}
+3.MKHorizMenu.h 用来设置 live video 界面下面按钮
+4.PTZ ：在安防监控应用中是 Pan/Tilt/Zoom 的简写，代表云台全方位（左右/上下）移动及镜头变倍、变焦控制。
+
+other：
+    旋转角度由硬件来决定，大于硬件角度 发送角度无效！（待确定！）
+    视频录制只支持MEDIA_CODEC_VIDEO_H264？
+
+ps:
+采用多Target编译方案来实现多个相似App的开发，以保证我们能够快速地推出多个相似课程的客户端。

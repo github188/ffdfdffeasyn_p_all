@@ -60,7 +60,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    //多 target 引入
     cautionLabel.text = NSLocalizedString(@"Please connect to your Wi-Fi network.", @"");
     
     [password setSecureTextEntry:YES];
